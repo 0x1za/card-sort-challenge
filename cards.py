@@ -22,7 +22,7 @@ def sort():
     global sorted, status, final
     if is_key_pressed('s'):
         sorted = []
-        deck = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'K', 'Q']
+        deck = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'K', 'Q'][::-1]
         for x in deck:
             for i in inserted:
                 if str(x) == i:
